@@ -1,0 +1,58 @@
+.card_search{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding-bottom: 10px;
+
+  width: 250px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 250px;
+  height: 350px;
+  border-radius: 15px;
+  background-color: #232323;
+
+}
+
+.card__title{
+
+}
+
+.card__title > h3 {
+  color: white;
+}
+
+.card__body{
+  width: 90%;
+  height: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  background: #616161;
+}
+
+.card__body > img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.card__stats{
+  padding-top: 10px;
+
+}
+
+.card__status__type{
+  color: #000;
+  font-size: small;
+  font-weight:bolder;
+  background-color: coral;
+  padding:5px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
